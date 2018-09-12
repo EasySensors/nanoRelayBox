@@ -17,6 +17,7 @@
  - Plastic Enclosure Dimensions 145x90x40
 
 **Pin out:** 
+
 Arduino Pins|Description
 ------------|--------------
 A2 |	Controls unfused Power Relay1. Current up to 20A
