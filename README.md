@@ -17,7 +17,7 @@
  - Plastic Enclosure Dimensions 145x90x40
 
 **Pin out:** 
-Arduino Pins|	Description
+Arduino Pins|Description
 ------------|--------------
 A2 |	Controls unfused Power Relay1. Current up to 20A
 D7 |	Controls unfused Power Relay2. Current up to 20A
@@ -28,8 +28,10 @@ D4 |	Controls fused Relay4. Current up to 10A
 D3 |	Controls fused Relay5. Current up to 10A
 A1 |	Controls fused Relay6. Current up to 10A
 A3 |	Connected to ATSHA204A footprint
-GND, 3.3V,  5V| connected to grey terminals 
-A7, A6, A5, A4| connected to grey terminals 
+
+Arduino Pins|Description
+------------|--------------
+GND, 3.3V,5V, A7, A6, A5, A4| connected to grey terminals 
 
 How to use it as home automation (IOT) node Relay
 ------------------------------------------------------
