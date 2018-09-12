@@ -13,6 +13,7 @@
  - NRF24L01+ (optional, footprint available)
  - 2 x Power Relays capable to hold current up to 20A
  - 6 x Relays capable to hold current up to 10A
+ - 8 LED's indicating Relay Status
  - Supply voltage 240 Volts AC for [HLK-5M05](http://www.hlktech.net/product_detail.php?ProId=60)  power supply
  - Protection:<br>
 	Fuses for 10A relays<br>
