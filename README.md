@@ -11,9 +11,11 @@
  - External JDEC EPROM (optional, footprint available)
  - RFM69-HW (high power version) 433 - 868 - 915 MHz Radio transceiver
  - NRF24L01+ (optional, footprint available)
+ - 2 x Power Relays capable to hold current up to 20A
+ - 6 x Relays capable to hold current up to 10A
  - Supply voltage 240 Volts AC for [HLK-5M05](http://www.hlktech.net/product_detail.php?ProId=60)  power supply
  - Protection:<br>
-	Thermal fuses for 10A relays<br>
+	Fuses for 10A relays<br>
  - Plastic Enclosure Dimensions 145x90x40
 
 **Pin out:** 
