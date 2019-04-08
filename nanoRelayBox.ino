@@ -28,16 +28,10 @@
 // Enable and select radio type attached
 #define MY_RADIO_RFM69
 
-// if you use MySensors 2.0 use this style 
-//#define MY_RFM69_FREQUENCY   RF69_433MHZ
-//#define MY_RFM69_FREQUENCY   RF69_868MHZ
-//#define MY_RFM69_FREQUENCY   RF69_915MHZ
-
 
 //#define MY_RFM69_FREQUENCY   RFM69_433MHZ
-
-
 //#define MY_RFM69_FREQUENCY   RFM69_868MHZ
+//#define MY_RFM69_FREQUENCY   RFM69_915MHZ
 
 
 #define MY_IS_RFM69HW
@@ -60,7 +54,7 @@
 #include <stdlib.h>
 
 //--------------------- https://github.com/JonHub/Filters
-#include <Filters.h> 
+//#include <Filters.h> 
 float testFrequency = 50;                     // test signal frequency (Hz)
 float windowLength = 20.0/testFrequency;     // how long to average the signal, for statistist
 
@@ -80,8 +74,6 @@ float windowLength = 20.0/testFrequency;     // how long to average the signal, 
 
 #define RELAY_COUNT 8
 int relayChildID[8] = {1, 2, 3, 4, 5, 6, 7, 8};
-//int relayPin[8] = {A2, 7, A1, 3, 4, 5, 6, A0}; 
-//int relayPin[8] = {A2, 7, A1, 3, 4, 5, 6, A0}; 
 int relayPin[8] = {A2, 7, A0, 6, 5, 4, 3, A1}; 
 
 MyMessage msg[8];
@@ -116,8 +108,6 @@ void before() {
       digitalWrite(relayPin[i], loadState(i+1)?RELAY_ON:RELAY_OFF);
       }
     }
-    
-
 }
 
 void setup() {
@@ -154,3 +144,4 @@ void receive(const MyMessage &message) {
      Serial.println(message.getBool());
    }
 }
+
